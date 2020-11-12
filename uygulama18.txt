@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<table border="0">
+  <tbody>
+    <tr>
+      <td width="100" height="30" >Adı Soyadı:</td>
+      <td width="300"><input type="text"></td>
+    </tr>
+    <tr>
+      <td>E Mail</td>
+      <td><input type="email" size="15">@<select form="gmail.com">
+        <option>gmail.com</option>
+        <option>hotmail.com</option>
+        <option>msn.com</option>
+      </select></td>
+    </tr>
+    </tr>
+    <tr>
+      <td height="30">Cinsiyet</td>
+      <td><input name="Cinsiyet" type="radio" value="Erkek">Erkek <input name="Cinsiyet" type="radio" value="Kadın">Kadın</td         
+    </tr>
+	 <tr>
+      <td height="30">D.Yeri</td>
+	   <td><select>
+		   <option>Bir Şehir Seçiniz</option>
+		   <option>Adana</option>
+		   <option>Bursa</option>
+		   <option>Antalya</option>
+		   <option>İstanbul</option>
+	   </select></td>
+    </tr>
+		    <tr>
+      <td height="30">Hobiler</td>
+		<td><input type="checkbox" value="Sinema">Sinema<input type="checkbox" value="Kitap">Kitap</td>
+    </tr>
+    <tr>
+      <td height="30"></td>
+      <td><input type="button" value="Gönder">
+    </tr>
+		  
+  </tbody>
+</table>
+
+</body>
+</html>

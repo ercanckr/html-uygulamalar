@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.Uygulama</title>
+</head>
+<body>
+    <font color="red" size="7" face="comic sans MS">Bilişim Teknolojileri</font><br><br>
+    <h1> <font color="#3496ff">Ders 1</font></h1><br>
+    <h2><font color="red">Ders 2</font></h2><br>
+    <h3><font color="yellow">Ders 3</font></h3><br>
+    <h4><font color="orrange">Ders 4</font></h4><br>
+    <h5><font color="Brown">Ders 5</font></h5><br>
+    <h6><font color="purple">Ders 6</font></h6>
+
+</body>
+</html>

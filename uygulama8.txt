@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.Sayfam</title>
+</head>
+<body>
+    <a name="üst"></a>
+    <a href="#BJK">Beşiktaş</a><br>
+    <a href="#BS">BursaSpor</a><br>
+    <a href="#FB">Fenerbahçe</a><br>
+    <a href="#GS">Galatasaray</a><br>
+    <a href="#TS">TrabzonSpor</a><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <strong>Beşiktaş</strong>
+
+    <a name="BJK">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eum asperiores cumque ducimus quo, odit nostrum quas doloremque alias unde, 
+        impedit et, qui quidem! Ab architecto magnam, fugiat fuga et officiis!.</a>
+        <a href="#üst">Üste Dön</a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <strong>BursaSpor</strong>
+        <a name="BS">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eum asperiores cumque ducimus quo, odit nostrum quas doloremque alias unde, 
+            impedit et, qui quidem! Ab architecto magnam, fugiat fuga et officiis!.</a>
+            <a href="#üst">Üste Dön</a>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <strong>Fenerbahçe</strong>
+        
+            <a name="FB">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Eum asperiores cumque ducimus quo, odit nostrum quas doloremque alias unde, 
+                impedit et, qui quidem! Ab architecto magnam, fugiat fuga et officiis!.</a>
+                <a href="#üst">Üste Dön</a>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <strong>Galatasaray</strong>
+                <a name="GS">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eum asperiores cumque ducimus quo, odit nostrum quas doloremque alias unde, 
+                    impedit et, qui quidem! Ab architecto magnam, fugiat fuga et officiis!.</a>
+                    <a href="#üst">Üste Dön</a>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <strong>TrabzonSpor</strong>
+                    <a name="TS">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eum asperiores cumque ducimus quo, odit nostrum quas doloremque alias unde, 
+                        impedit et, qui quidem! Ab architecto magnam, fugiat fuga et officiis!.</a>
+                        <a href="#üst">Üste Dön</a>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

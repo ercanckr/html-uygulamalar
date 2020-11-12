@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.Sayfam</title>
+</head>
+<body>
+    <a href="uygulama1.html" target="_blank">uygulama1</a><br>
+    <a href="uygulama2.html" target="_blank">uygulama2</a><br>
+    <a href="uygulama3.html" target="_blank">uygulama3</a><br>
+    <a href="uygulama4.html" target="_blank">uygulama4</a><br>
+    <a href="uygulama5.html" target="_blank">uygulama5</a><br>
+    <a href="uygulama6.html" target="_blank">uygulama6</a><br><br><b><br></b>
+    <a href="http://www.google.com" target="_blank"><img src="img/google.png" width="150"></a>
+</body>
+</html>

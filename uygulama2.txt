@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.Sayfam</title>
+</head>
+<body>
+    <b>Bilişim </b><br>
+    <Strong>Web Tasarımı</Strong>
+    <br/>
+    <u>HTML</u>
+    <br/>
+    <i>Teknoloji</i>
+    <br/>
+    <b><u><i>Bilişim Teknılojileri</i></u></b>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.Sayfam </title>
+</head>
+<body>
+    <ol type="1" start="10">
+        <li>Beşiktaş</li>
+        <li>Galatasaray</li>
+        <li>Trabzon Spor</li>
+        <li>Fenerbahçe</li>
+        <li>Antalya Spor</li>
+        <li>Ankaragücü</li>
+    </ol>
+    <br><br>
+    <ul type="circle">
+        <li>Beşiktaş</li>
+        <li>Galatasaray</li>
+        <li>Trabzon Spor</li>
+        <li>Fenerbahçe</li>
+        <li>Antalya Spor</li>
+        <li>Ankaragücü</li>
+    </ul>
+</body>
+</html>

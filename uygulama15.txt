@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15.Sayfam</title>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+        Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+        deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+    </p>
+    <hr color="#ff0000" width="1200">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+        Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+        deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+    </p>
+    <hr color="#ff0000" width="1200">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+        Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+        deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+    </p>
+    <hr color="#ff0550" width="1200">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+        Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+        deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+    </p>
+    <hr color="#ff0585" width="1200">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+    Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+    deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+    <p></p>
+    <hr color="#ff0000" width="1200">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, totam odit. 
+    Voluptas eos, eaque aperiam quidem autem, exercitationem asperiores optio 
+    deleniti dolor cupiditate quisquam doloribus! Quasi animi obcaecati repudiandae nisi.
+
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16.sayfam</title>
+</head>
+<body>
+    <hr color="#ff0000" width="400">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        At labore voluptatum eum veniam facere nulla neque reprehenderit magnam nemo provident voluptatibus enim molestiae id facilis laborum illo, deleniti officia obcaecati?</p>
+    <hr color="#ff0000" width="400">
+    <hr color="#ff0000" width="400">
+    <hr color="#ff0000" width="400">
+    <hr color="#00ff00" width="400">
+</body>
+</html>

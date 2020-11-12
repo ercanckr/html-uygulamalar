@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>18.Sayfam</title>
+</head>
+<body>
+<div style="width: 300px; height: 164px; background: #2873FF; border: 5px solid #000; color: #AECB0F; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; position: fixed; margin: 50px 0 0 40px; " >4.KUTU</div>
+	
+<div style="width: 300px; height: 164px; background: #E05; border: 5px solid #000; color: #0B0535; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; position: static; margin: 50px 0 0 40px;" >1.KUTU</div>
+	
+<div style="width: 300px; height: 164px; background: #287300; border: 5px solid #000; color: #AECB0F; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; position: relative; top: 50px; left: 40px" >2.KUTU</div>
+	
+	<div style="width: 300px; height: 164px; background: #99FF00; border: 5px solid #000; color: #000000; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; position: absolute; left: 45px; top: 1954px;" >3.KUTU</div>
+</body>
+</html>

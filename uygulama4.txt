@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.Sayfam</title>
+</head>
+<body>
+    <img src="img/elma.jpg" width="150" height="150" title="Elma" alt="Elma" border="2" >
+    <img src="img/mandalina.jpg" width="150" title="Mandalina" alt="mandalina" border="2">
+</body>
+</html>

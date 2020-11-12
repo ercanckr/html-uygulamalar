@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>20.Sayfam</title>
+</head>
+
+<body>
+	<div style="width: 640px; height: 620px; margin: 0 auto;">
+	
+	<div style="width: 300px; height: 164px; background: #0F160BF; border: 5px solid #000; color: #AECB0F; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; float: left" >1.KUTU</div>
+	
+	<div style="width: 300px; height: 164px; background: #4941B5; border: 5px solid #000; color: #AECB0F; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; float: left; margin: 0 0 0 20px" >2.KUTU</div>
+	
+	<div style="width: 300px; height: 164px; background: #550055; border: 5px solid #000; color: #AECB0F; font: bold 20px tahoma; text-align: center; padding: 136px 0 0 0; clear: both" >3.KUTU</div>
+			
+	</div>
+				
+</body>
+</html>

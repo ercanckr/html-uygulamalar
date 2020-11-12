@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11.Sayfam</title>
+</head>
+<body>
+    <table bgcolor="#000000" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="50" rowspan="5" align="center" ><font color="#ff0000" face="tahoma" > A <br>N <br>T <br>A <br>L <br>Y <br>A  <br> <br> <br>M <br>L</font></td>
+            <td colspan="4" height="35" align="center" ><font color="#ff0000" face="tahoma">XXX Sınıfı Fotoğraflı Öğrenci Listesi</font></td>
+        </tr>
+
+        <tr>
+            <td width="100" align="center" hight="25"><font color="#ff0000" face="tahoma">Sıra No</font></td>
+            <td width="100" align="center" ><font color="#ff0000" face="tahoma">Okul No</font></td>
+            <td width="200" align="center" ><font color="#ff0000" face="tahoma">Ad Soyad</font></td>
+            <td width="150" align="center" ><font color="#ff0000" face="tahoma">Fotoğef</font></td>
+        </tr>
+
+        <tr>
+            <td align="center" hight="100"><font color="#ffffff" face="tahoma"size="2">1</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma" size="2">111</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma"size="2">Efe Çakır</font></td>
+            <td align="center" > <img src="img/erkek.png" width="90"> </td>
+        </tr>
+        <tr>
+            <td align="center" hight="100"><font color="#ffffff" face="tahoma" size="2">2</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma"size="2">173</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma"size="2">Ayşe Kaya</font></td>
+            <td align="center" > <img src="img/kiz.png" width="90"> </td>
+        </tr>
+        <tr>
+            <td align="center" hight="100"><font color="#ffffff" face="tahoma"size="2">3</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma"size="2">242</font></td>
+            <td align="center" ><font color="#ffffff" face="tahoma"size="2">Cem Efe</font></td>
+            <td align="center" > <img src="img/erkek.png" width="90"> </td>
+        </tr>
+    </table>
+</body>
+</html>
