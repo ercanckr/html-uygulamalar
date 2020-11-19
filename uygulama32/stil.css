@@ -123,8 +123,9 @@ textarea {
 }
 .alt {
   width: 100%;
-  height: 82px;
+  height: 62px;
   background: #ffffff;
+  padding: 20px 0 0 0;
 }
 .menu {
   width: 1078px;
@@ -215,4 +216,104 @@ textarea {
   height: 34px;
   background: url(images/ipadair_xlarge.jpg);
   margin: 0 auto;
+}
+.ipadalt {
+  width: 375px;
+  height: 40px;
+  margin: 50px auto 0 auto;
+}
+.ipadaltsol {
+  width: 145px;
+  height: 40px;
+  float: left;
+}
+.ipadaltsag {
+  width: 220px;
+  height: 40px;
+  float: left;
+  margin: 0 0 0 10px;
+}
+.ipadaltsol a {
+  font: 32px "Open Sans Condensed";
+  color: #0088cc;
+  text-decoration: none;
+}
+.ipadaltsag a {
+  display: block;
+  width: 220px;
+  height: 40px;
+  font: 32px "Open Sans Condensed";
+  color: #0088cc;
+  text-decoration: none;
+  background: url(images/sagok1.png) right no-repeat;
+}
+.ipadaltsol a:hover {
+  color: #333;
+}
+.ipadaltsag a:hover {
+  color: #333;
+  background: url(images/sagok2.png) right no-repeat;
+}
+.orta2 ul li {
+  float: left;
+  display: block;
+  width: 25%;
+}
+.orta2 ul li a {
+  display: block;
+  height: 200px;
+  text-indent: -2000px;
+}
+.orta2 ul li#a1 a {
+  background: url(images/promo_imac_large.jpg) center;
+}
+.orta2 ul li#a2 a {
+  background: url(images/promo_iphone6_large.jpg) center;
+  margin: 0 0 0 5px;
+}
+.orta2 ul li#a3 a {
+  background: url(images/promo_ios8_large.jpg) center;
+  margin: 0 0 0 5px;
+}
+.orta2 ul li#a4 a {
+  background: url(images/promo_education_large.jpg) center;
+  margin: 0 0 0 5px;
+}
+.alt1 {
+  width: 500px;
+  height: 15px;
+  font: 11px arial;
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+}
+.alt2 {
+  width: 430px;
+  height: 15px;
+  font: 11px arial;
+  color: #666;
+  margin: 10px auto;
+  text-align: center;
+}
+.alt3 {
+  width: 390x;
+  height: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.alt1 a,
+.alt2 a {
+  font: 11px arial;
+  color: #333;
+  text-decoration: none;
+}
+.alt3 a {
+  font: 11px arial;
+  color: #333;
+  text-decoration: none;
+}
+.alt1 a:hover,
+.alt2 a:hover,
+.alt3 a:hover {
+  text-decoration: underline;
 }
