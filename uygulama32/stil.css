@@ -1,0 +1,218 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /*font-size: 100%;
+	vertical-align: baseline;*/
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} /* tables still need 'cellspacing="0"' in the markup */
+textarea {
+  overflow: auto;
+}
+/***** RESET *****/
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url(fonts/open_sans_condensed-webfont.ttf);
+  src: local("Open Sans Condensed"),
+    url("fonts/open_sans_condensed-webfont.woff") format("woff"),
+    url("fonts/open_sans_condensed-webfont.eot") format("truetype"),
+    url("fonts/open_sans_condensed-webfont.svg#Open Sans Condensed"),
+    format("svg");
+}
+.ust {
+  width: 100%;
+  height: 46px;
+  background: #333;
+}
+.orta1 {
+  width: 100%;
+  height: 455px;
+  background: #ffffff;
+  padding: 120px 0 0 0;
+}
+.orta2 {
+  width: 100%;
+  height: 200px;
+  background: #ffffff;
+}
+.alt {
+  width: 100%;
+  height: 82px;
+  background: #ffffff;
+}
+.menu {
+  width: 1078px;
+  height: 46px;
+  margin: 0 auto;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: block;
+  text-indent: -2000px;
+}
+.menu ul li#logo a {
+  width: 18px;
+  height: 23px;
+  background: url(images/tab_apple.png);
+  margin: 11px 0 0 0;
+}
+.menu ul li#store a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_store.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#mac a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_mac.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#iphone a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_iphone.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#watch a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_watch.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#ipad a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_ipad.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#ipod a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_ipod.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#itunes a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_itunes.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#support a {
+  width: 130px;
+  height: 20px;
+  background: url(images/tab_support.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li#search a {
+  width: 19px;
+  height: 19px;
+  background: url(images/search_icon_white.png);
+  margin: 15px 0 0 0;
+}
+.menu ul li a:hover {
+  opacity: 0.5;
+}
+.spot {
+  width: 280px;
+  height: 150px;
+  background: url(images/ipadair_logo_large.png) center top no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 0 0 0;
+  font: 40px "Open Sans Condensed";
+}
+.ipadgorsel {
+  width: 1193px;
+  height: 34px;
+  background: url(images/ipadair_xlarge.jpg);
+  margin: 0 auto;
+}
