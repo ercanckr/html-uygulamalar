@@ -166,8 +166,85 @@ body {
   color: #d95b27;
 }
 .orta2 {
-  width: 481px;
-  height: 227px;
+  width: 441px;
+  height: 177px;
   background: url(images/welcome_box.gif) no-repeat;
   float: left;
+  font: 12px tahoma;
+  color: #000;
+  padding: 25px 40px 0 25px;
+  text-align: justify;
+  line-height: 20px;
+}
+.yazı2 {
+  font: bold 12px tahoma;
+  color: #d17750;
+}
+.readmore {
+  width: 63px;
+  height: 23px;
+  background: url(images/read_more_bg.gif);
+  margin: 10px 0 0 350px;
+  padding: 0 0 0 20px;
+}
+.readmore a {
+  font: bold 11px tahoma;
+  color: #fff;
+  text-decoration: none;
+}
+
+.readmore a:hover {
+  text-decoration: underline;
+}
+.orta3 {
+  width: 187px;
+  height: 265px;
+  float: left;
+  margin: -25px 0 0 60px;
+}
+.orta4 {
+  width: 466px;
+  height: 142px;
+  float: left;
+  font: bold 13px tahoma;
+  color: #000;
+  padding: 10px 0 0 30px;
+}
+.orta4 ul li {
+  display: block;
+  width: 402px;
+  height: 21px;
+  background: url(images/bullet_list.gif) no-repeat;
+  font: normal 11px tahoma;
+  padding: 4px 0 0 8px;
+}
+.yazı3 {
+  font: bold 12px tahoma;
+  color: #000;
+}
+.orta5 {
+  width: 268px;
+  height: 139px;
+  float: left;
+  background: url(images/text_box.gif) no-repeat;
+  padding: 20px 0 0 20px;
+}
+.orta5 td {
+  font: bold 11px tahoma;
+  color: #000;
+}
+.orta5 td span {
+  font-size: 15px;
+}
+.metinkutusu {
+  border: 1px solid #b5c6d0;
+  border-radius: 5px;
+  width: 150px;
+  height: 16px;
+}
+.dugme {
+  width: 83px;
+  height: 24px;
+  background: url(images/login.gif);
+  border: none;
 }
