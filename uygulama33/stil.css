@@ -1,0 +1,158 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /*font-size: 100%;
+	vertical-align: baseline;*/
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} /* tables still need 'cellspacing="0"' in the markup */
+textarea {
+  overflow: auto;
+}
+/***** RESET *****/
+.hepsi {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.menu {
+  width: 1000px;
+  height: 46px;
+  background: #333333;
+}
+.orta1 {
+  width: 250px;
+  height: 85px;
+  margin: 40px auto 0 auto;
+}
+.orta2 {
+  width: 883px;
+  height: 406px;
+  margin: 0 auto;
+}
+.orta3 {
+  width: 883px;
+  height: 45px;
+  margin: 0 auto;
+}
+.orta4 {
+  width: 743px;
+  height: 200px;
+  margin: 0 auto;
+}
+.orta5 {
+  width: 1000px;
+  height: 480px;
+  background: #333333;
+}
+.orta6 {
+  width: 840px;
+  height: 45px;
+  margin: 40px auto 0 auto;
+}
+.orta7 {
+  width: 840px;
+  height: 229px;
+  margin: 40px auto;
+}
+.orta7 {
+  width: 840px;
+  height: 229px;
+  margin: 40px auto;
+}
+.orta8 {
+  width: 840px;
+  height: 229px;
+  margin: 0 auto;
+}
+.alt {
+  width: 840px;
+  height: 25px;
+  margin: 80px auto 30px auto;
+}
