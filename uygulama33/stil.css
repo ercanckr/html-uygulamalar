@@ -162,9 +162,10 @@ textarea {
 }
 .alt {
   width: 840px;
-  height: 25px;
+  height: 20px;
   margin: 80px auto 30px auto;
   background: url(images/footer.png) no-repeat;
+  padding: 5px 0 0 0;
 }
 .menu ul li {
   float: left;
@@ -326,4 +327,39 @@ textarea {
   background: url(images/satinal.png) no-repeat;
   border: none;
   cursor: pointer;
+}
+.alt ul li {
+  float: left;
+  display: block;
+  height: 20px;
+  font: 13px helvetica;
+  color: #666;
+}
+.alt ul li#a1 {
+  width: 250px;
+  letter-spacing: -1px;
+}
+.alt ul li#a2 {
+  width: 170px;
+  text-align: center;
+}
+.alt ul li#a3 {
+  width: 150px;
+  text-align: center;
+}
+.alt ul li#a4 {
+  width: 170px;
+  text-align: center;
+}
+.alt ul li#a5 {
+  width: 100px;
+  text-align: center;
+}
+.alt ul li a {
+  font: 13px helvetica;
+  color: #666;
+  text-decoration: none;
+}
+.alt ul li a:hover {
+  text-decoration: underline;
 }
