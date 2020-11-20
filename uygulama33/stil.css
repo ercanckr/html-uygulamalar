@@ -112,19 +112,25 @@ textarea {
   margin: 40px auto 0 auto;
 }
 .orta2 {
-  width: 883px;
-  height: 406px;
+  width: 863px;
+  height: 79px;
   margin: 0 auto;
+  background: url(images/6sbanner.png) center bottom no-repeat;
+  padding: 327px 0 0 20px;
 }
 .orta3 {
   width: 883px;
   height: 45px;
   margin: 0 auto;
+  background: url(images/shadow.png);
 }
 .orta4 {
   width: 743px;
   height: 200px;
   margin: 0 auto;
+  font: 20px helvetica;
+  color: #666;
+  text-align: center;
 }
 .orta5 {
   width: 1000px;
@@ -155,4 +161,115 @@ textarea {
   width: 840px;
   height: 25px;
   margin: 80px auto 30px auto;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: block;
+  text-indent: -2000px;
+  margin: 0 0 0 60px;
+}
+.menu ul li#logo a {
+  width: 20px;
+  height: 44px;
+  background: url(images/logo.gif) no-repeat;
+  margin: 0 0 0 30px;
+}
+.menu ul li#mac a {
+  width: 31px;
+  height: 44px;
+  background: url(images/mac.gif) no-repeat;
+}
+.menu ul li#ipad a {
+  width: 30px;
+  height: 44px;
+  background: url(images/ipad.gif) no-repeat;
+}
+
+.menu ul li#iphone a {
+  width: 48px;
+  height: 44px;
+  background: url(images/iphone.gif) no-repeat;
+}
+
+.menu ul li#watch a {
+  width: 44px;
+  height: 44px;
+  background: url(images/watch.gif) no-repeat;
+}
+
+.menu ul li#tv a {
+  width: 20px;
+  height: 44px;
+  background: url(images/tv.gif) no-repeat;
+}
+
+.menu ul li#music a {
+  width: 40px;
+  height: 44px;
+  background: url(images/music.gif) no-repeat;
+}
+
+.menu ul li#destek a {
+  width: 48px;
+  height: 44px;
+  background: url(images/destek.gif) no-repeat;
+}
+
+.menu ul li#search a {
+  width: 20px;
+  height: 44px;
+  background: url(images/search.gif) no-repeat;
+  margin: 0 0 0 100px;
+}
+
+.menu ul li#shop a {
+  width: 18px;
+  height: 44px;
+  background: url(images/shop.gif) no-repeat;
+  margin: 0 0 0 100px;
+}
+.menu ul li a:hover {
+  opacity: 0.5;
+}
+.orta2ic1 {
+  width: 66px;
+  height: 55px;
+  float: left;
+  margin: 14px 0 0 0;
+}
+.orta2ic2 {
+  width: 36px;
+  height: 52px;
+  float: left;
+  margin: 17px 0 0 60px;
+}
+.orta2ic3 {
+  width: 42px;
+  height: 51px;
+  float: left;
+  margin: 18px 0 0 60px;
+}
+.orta2ic4 {
+  width: 71px;
+  height: 69px;
+  float: left;
+  margin: 0 0 0 300px;
+}
+.orta2ic5 {
+  width: 67px;
+  height: 69px;
+  float: left;
+  margin: 0 0 0 40px;
+}
+.orta2ic6 {
+  width: 67px;
+  height: 69px;
+  float: left;
+  margin: 0 0 0 40px;
+}
+.orta4 span {
+  font: bold 19px helvetica;
+  color: #333;
 }
