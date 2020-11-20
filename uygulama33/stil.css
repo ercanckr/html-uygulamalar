@@ -133,14 +133,16 @@ textarea {
   text-align: center;
 }
 .orta5 {
-  width: 1000px;
-  height: 480px;
-  background: #333333;
+  width: 880px;
+  height: 410px;
+  background: #333333 url(images/3dtouch.jpg) right no-repeat;
+  padding: 70px 0 0 120px;
 }
 .orta6 {
   width: 840px;
   height: 45px;
   margin: 40px auto 0 auto;
+  border-bottom: 1px solid #333;
 }
 .orta7 {
   width: 840px;
@@ -156,11 +158,13 @@ textarea {
   width: 840px;
   height: 229px;
   margin: 0 auto;
+  background: url(images/ayraclar.png) no-repeat;
 }
 .alt {
   width: 840px;
   height: 25px;
   margin: 80px auto 30px auto;
+  background: url(images/footer.png) no-repeat;
 }
 .menu ul li {
   float: left;
@@ -272,4 +276,54 @@ textarea {
 .orta4 span {
   font: bold 19px helvetica;
   color: #333;
+}
+.orta5ic {
+  width: 360px;
+  height: 300px;
+  text-align: center;
+  font: 14px helvetica;
+  color: #ddd;
+}
+.orta5ic span {
+  font: bold 22px helvetica;
+  color: #eee;
+}
+.orta6 ul li {
+  float: left;
+  display: block;
+  width: 210px;
+  height: 35px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font: 500 22px helvetica;
+  color: #666;
+}
+.orta7 ul li {
+  float: left;
+  display: block;
+  width: 176px;
+  height: 229px;
+  margin: 0 17px 0 17px;
+}
+.orta8 ul li {
+  display: block;
+  float: left;
+  height: 229px;
+  text-align: center;
+  font: 500 20px helvetica;
+  line-height: 60px;
+  color: #666;
+}
+.orta8 ul li#p1 {
+  width: 190px;
+}
+.orta8 ul li#p2 {
+  width: 230px;
+}
+.orta8 ul li input {
+  width: 90px;
+  height: 24px;
+  background: url(images/satinal.png) no-repeat;
+  border: none;
+  cursor: pointer;
 }
