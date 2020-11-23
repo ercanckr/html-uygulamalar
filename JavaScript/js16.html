@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 16</title>
+    <style type="text/css">
+      .renk0 {
+        background: #a00;
+        font: bold 12px tahoma;
+        color: #fff;
+      }
+      .renk1 {
+        background: #ccc;
+        font: bold 12px tahoma;
+        color: #06c;
+      }
+      .renk2 {
+        background: #fff;
+        font: bold 12px tahoma;
+        color: #06c;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var isimler = new Array(
+        "Efe Çakır",
+        "Mahmut Tuncer",
+        "Ercan Çakır",
+        "Ahmet Çakır",
+        "Mukerrem Çakır",
+        "Cennet Çakır",
+        "Coşkun Çakır",
+        "Bayram Çakır",
+        "Hasan Çakır",
+        "Dede Çakır"
+      );
+      var z;
+      document.write("<table border='0' cellspacing='0' cellpadding='0'>");
+      document.write(
+        "<tr class='renk0'><td width='100' height='30' align='center'>Sıra Numarası</td><td width='300' align='center'>İsim Soyisim</td></tr>"
+      );
+      for (var i = 0; i <= 9; i++) {
+        z = i + 1;
+        if (z % 2 == 1) {
+          document.write(
+            "<tr class='renk1'><td width='100' height='30' align='center'>",
+            z,
+            "</td><td width='300' align='center'>",
+            isimler[i],
+            "</td></tr>"
+          );
+        } else {
+          document.write(
+            "<tr class='renk2'><td width='100' height='30' align='center'>",
+            z,
+            "</td><td width='300' align='center'>",
+            isimler[i],
+            "</td></tr>"
+          );
+        }
+      }
+
+      document.write("</table>");
+    </script>
+  </body>
+</html>

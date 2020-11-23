@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 17</title>
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var satir = prompt("Satır Sayısı", "Satır Sayısını Girin");
+      var sutun = prompt("Sütün Sayısı", "Sütun Sayısını Girin");
+      document.write("<table border='1' cellpadding='0' cellspacing='0'>");
+      for (var i = 1; i <= satir; i++) {
+        document.write("<tr>");
+        for (var j = 1; j <= sutun; j++) {
+          document.write("<td width='150' height='15'></td>");
+        }
+        document.write("</tr>");
+      }
+      document.write("</table>");
+    </script>
+  </body>
+</html>
