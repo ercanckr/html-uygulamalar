@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 24</title>
+    <style type="text/css">
+      #discerceve {
+        width: 400px;
+        border: 4px solid #59f;
+        padding: 5px;
+      }
+      #iccerceve {
+        width: 378px;
+        border: 1px solid #59f;
+        padding: 10px;
+        font: bold 12px tahoma;
+        color: #606060;
+      }
+    </style>
+    <script type="text/javascript">
+      var istiklalmarsi =
+        "<h3 style='text-align: center'>İSTİKLAL MARŞI</h3> <br> Korkma, sönmez bu şafaklarda yüzen al sancak;<br> Sönmeden yurdumun üstünde tüten en son ocak.<br> O benim milletimin yıldızıdır, parlayacak;<br> O benimdir, o benim milletimindir ancak. <br><br> Çatma, kurban olayım, çehreni ey nazlı hilal!<br> Kahraman ırkıma bir gül! Ne bu şiddet, bu celal?<br> Sana olmaz dökülen kanlarımız sonra helal...<br> Hakkıdır, hakk'a tapan, milletimin istiklal!<br><div style='text-align: right'>MEHMET AKİF ERSOY</div>";
+
+      function goster() {
+        document.getElementById("iccerceve").innerHTML = istiklalmarsi;
+      }
+      function gizle() {
+        document.getElementById("iccerceve").innerHTML = "";
+      }
+    </script>
+  </head>
+  <body>
+    <form action="">
+      <input type="button" value="İstiklal Marşını Göster" onclick="goster()" />
+      <input
+        type="button"
+        value="İstiklal Marşını Gizle"
+        onclick="gizle()"
+      /><br /><br />
+    </form>
+    <br /><br />
+
+    <div id="discerceve">
+      <div id="iccerceve"></div>
+    </div>
+  </body>
+</html>
