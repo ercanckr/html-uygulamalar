@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 25</title>
+    <style type="text/css">
+      table {
+        margin: auto;
+      }
+      div {
+        margin: auto;
+      }
+    </style>
+    <script type="text/javascript">
+      function divolustur() {
+        document.getElementById("kutu").style.width =
+          document.getElementById("genislik").value + "px";
+        document.getElementById("kutu").style.height =
+          document.getElementById("yukseklik").value + "px";
+        document.getElementById(
+          "kutu"
+        ).style.borderWidth = document.getElementById("kenkal").value;
+        document.getElementById(
+          "kutu"
+        ).style.borderStyle = document.getElementById("kentip").value;
+        document.getElementById(
+          "kutu"
+        ).style.borderColor = document.getElementById("kenrenk").value;
+        document.getElementById(
+          "kutu"
+        ).style.backgroundColor = document.getElementById("arkaplan").value;
+        document.getElementById(
+          "kutu"
+        ).style.borderRadius = document.getElementById("ovallik").value;
+      }
+    </script>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td width="200" height="30">Genişlik</td>
+          <td width="300"><input id="genislik" type="text" /></td>
+        </tr>
+        <tr>
+          <td height="30">Yükseklik</td>
+          <td><input id="yukseklik" type="text" /></td>
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Kalınlığı</td>
+          <td>
+            <select name="" id="kenkal">
+              <option>Bir Çizgi Kalınlığı Seçiniz</option>
+              <option value="1px">1px</option>
+              <option value="2px">2px</option>
+              <option value="3px">3px</option>
+              <option value="4px">4px</option>
+              <option value="5px">5px</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Tipi</td>
+          <td>
+            <select name="" id="kentip">
+              <option>Bir Kenarlık Tipi Seçiniz</option>
+              <option value="solid">Solid</option>
+              <option value="dashed">Dashed</option>
+              <option value="dotted">Dotted</option>
+              <option value="double">Double</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Rengi</td>
+          <td>
+            <select name="" id="kenrenk">
+              <option>Bir Renk Seçiniz</option>
+              <option value="#f00">Kırmızı</option>
+              <option value="#00f">Mavi</option>
+              <option value="#0f0">Yeşil</option>
+              <option value="#000">Siyah</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td height="30">Arka Plan Rengi</td>
+          <td>
+            <select name="" id="arkaplan">
+              <option>Bir Renk Seçiniz</option>
+              <option value="#f00">Kırmızı</option>
+              <option value="#00f">Mavi</option>
+              <option value="#0f0">Yeşil</option>
+              <option value="#000">Siyah</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td height="30">Ovallik</td>
+          <td>
+            <select name="" id="ovallik">
+              <option>Ovallik Miktarı</option>
+              <option value="3px">3px</option>
+              <option value="5px">5px</option>
+              <option value="10px">10px</option>
+              <option value="15px">15px</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td height="30"></td>
+          <td>
+            <input type="button" value="Oluştur" onclick="divolustur()" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br /><br /><br />
+    <div id="kutu"></div>
+  </body>
+</html>
