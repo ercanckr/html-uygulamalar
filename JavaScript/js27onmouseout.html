@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 27</title>
+    <script type="text/javascript">
+      function uzerinegelince() {
+        document.getElementById("mesaj").innerHTML = "Türkiye'ye Başarılar...";
+        document.getElementById("mesaj").style.color = "#f00";
+      }
+      function uzerindenayrilinca() {
+        document.getElementById("mesaj").innerHTML = "Euro 2020'de";
+        document.getElementById("mesaj").style.color = "#000";
+      }
+    </script>
+  </head>
+  <body>
+    <h1
+      id="mesaj"
+      onmouseover="uzerinegelince()"
+      onmouseout="uzerindenayrilinca()"
+    >
+      Euro 2020'de
+    </h1>
+  </body>
+</html>
