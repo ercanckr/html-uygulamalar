@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 30</title>
+    <script type="text/javascript">
+      function odaklan(x) {
+        document.getElementById(x).style.backgroundColor = "yellow";
+        document.getElementById(x).style.color = "red";
+      }
+      function terket(x) {
+        document.getElementById(x).style.backgroundColor = "white";
+        document.getElementById(x).style.color = "black";
+      }
+    </script>
+  </head>
+  <body>
+    <form action="">
+      <textarea
+        name=""
+        id="bolge"
+        cols="60"
+        rows="10"
+        onfocus="odaklan(this.id)"
+        onblur="terket(this.id)"
+      ></textarea
+      ><br /><br />
+      <input
+        id="alan"
+        type="text"
+        onfocus="odaklan(this.id)"
+        onblur="terket(this.id)"
+      />
+    </form>
+  </body>
+</html>
