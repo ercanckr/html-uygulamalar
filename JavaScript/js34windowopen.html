@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript 34</title>
+    <script type="text/javascript">
+      var pencere;
+
+      function pencereac() {
+        pencere = window.open(
+          "",
+          "pencere",
+          "width=400,height=300,top=200,left=200,scrollbars=yes"
+        );
+        pencere.document.write(
+          "<html><head><title>Yeni Pencere</title></head><body bgColor='#ffffc1' text='#ce4300'>"
+        );
+        pencere.document.write("<center><h3>Merhaba</h3></center></body>");
+        pencere.document.write("</body></html>");
+      }
+      function pencerekapat() {
+        pencere.close();
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#" onclick="pencereac()">Pencereyi Aç</a><br />
+    <a href="#" onclick="pencerekapat()">Pencereyi Kapat</a>
+  </body>
+</html>
