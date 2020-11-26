@@ -1,0 +1,81 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="text/html, initial-scale=1.0" />
+    <title>javascript 38</title>
+    <style type="text/css">
+      #kutu1 {
+        width: 50px;
+        height: 50px;
+        background: #b3b5fd;
+        float: left;
+        position: absolute;
+        top: 20px;
+      }
+      #kutu2 {
+        width: 50px;
+        height: 50px;
+        background: #f00000;
+        float: left;
+        position: absolute;
+        top: 20px;
+        left: 451px;
+      }
+    </style>
+
+    <script type="text/javascript">
+      var x1 = 0,
+        x2 = 452,
+        zaman1,
+        zaman2;
+      zaman1 = window.setInterval("ileri1()", 1);
+
+      function ileri1() {
+        document.getElementById("kutu1").style.left = x1;
+
+        if (x1 == 401) {
+          dur1();
+        }
+        x1++;
+      }
+      function dur1() {
+        window.clearInterval(zaman1);
+        zaman2 = window.setInterval("ileri2()", 1);
+      }
+      function ileri2() {
+        document.getElementById("kutu2").style.left = x2;
+
+        if (x2 == 800) {
+          dur2();
+        }
+        x2++;
+      }
+      function dur2() {
+        window.clearInterval(zaman2);
+        zaman2 = window.setInterval("geri2()", 1);
+      }
+
+      function geri2() {
+        document.getElementById("kutu2").style.left = x2;
+        if (x2 == 451) {
+          window.clearInterval(zaman2);
+          zaman1 = window.setInterval("geri1()", 1);
+        }
+        x2--;
+      }
+      function geri1() {
+        document.getElementById("kutu1").style.left = x1;
+        if (x1 == 0) {
+          window.clearInterval(zaman1);
+          zaman1 = window.setInterval("ileri1()", 1);
+        }
+        x1--;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="kutu1"></div>
+    <div id="kutu2"></div>
+  </body>
+</html>
