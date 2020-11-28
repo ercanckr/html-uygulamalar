@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>javascript 32</title>
+    <style>
+      .uyari {
+        color: #f00;
+      }
+    </style>
     <script type="text/javascript">
       function kontrol() {
         var adal = document.getElementById("ad").value;
@@ -17,25 +22,21 @@
         document.getElementById("tcnouyari").innerHTML = "";
         if (adal == "") {
           document.getElementById("aduyari").innerHTML = "Boş Geçemezsiniz!!!";
-          document.getElementById("aduyari").style.color = "#f00";
         }
 
         if (emailal == "") {
           document.getElementById("emailuyari").innerHTML =
             "Boş Geçemezsiniz!!!";
-          document.getElementById("emailuyari").style.color = "#f00";
         }
 
         if (sifreal == "") {
           document.getElementById("sifreuyari").innerHTML =
             "Boş Geçemezsiniz!!!";
-          document.getElementById("sifreuyari").style.color = "#f00";
         }
 
         if (tcnoal == "") {
           document.getElementById("tcnouyari").innerHTML =
             "Boş Geçemezsiniz!!!";
-          document.getElementById("tcnouyari").style.color = "#f00";
         }
       }
     </script>
@@ -46,22 +47,22 @@
         <tr>
           <td width="150">Adı Soyadı</td>
           <td width="150"><input type="text" id="ad" /></td>
-          <td width="350"><span id="aduyari"></span></td>
+          <td width="350"><span id="aduyari" class="uyari"></span></td>
         </tr>
         <tr>
           <td>Email</td>
           <td><input type="text" id="email" /></td>
-          <td><span id="emailuyari"></span></td>
+          <td><span id="emailuyari" class="uyari"></span></td>
         </tr>
         <tr>
           <td>Şifre</td>
           <td><input type="passworld" id="sifre" /></td>
-          <td><span id="sifreuyari"></span></td>
+          <td><span id="sifreuyari" class="uyari"></span></td>
         </tr>
         <tr>
           <td>TC No</td>
           <td><input type="text" id="tcno" /></td>
-          <td><span id="tcnouyari"></span></td>
+          <td><span id="tcnouyari" class="uyari"></span></td>
         </tr>
         <tr>
           <td></td>
