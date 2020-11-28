@@ -8,6 +8,7 @@
       #sliderust {
         width: 715px;
         height: 402px;
+        cursor: pointer;
       }
       #slideralt {
         width: 715px;
@@ -41,7 +42,19 @@
     </style>
     <script type="text/javascript">
       var zaman;
-
+      var linkler = new Array(
+        "",
+        "js38zamanfonksiyonları.html",
+        "js37setInterval.html",
+        "js36settimeout.html",
+        "js35setTimeout.html",
+        "js34windowopen.html",
+        "js33windowopen.html",
+        "js32onclick.html",
+        "js31onchange.html",
+        "js30onfocus-onblur.html",
+        "js29ondblclick.html"
+      );
       var resimler = new Array(
         "",
         "url(images/11.jpg)",
@@ -60,8 +73,14 @@
         for (var i = 1; i <= 10; i++) {
           if (x == i) {
             document.getElementById("sayi" + i).style.backgroundColor = "red";
-            document.getElementById("sliderust").style.backgroundImage = resimler[x];
-              document.getElementById.("sliderust").setAttribute("onclick","window.location.href='"+linkler[x]+"'");
+            document.getElementById("sliderust").style.backgroundImage =
+              resimler[x];
+            document
+              .getElementById("sliderust")
+              .setAttribute(
+                "onclick",
+                "window.location.href='" + linkler[x] + "'"
+              );
           } else {
             document.getElementById("sayi" + i).style.backgroundColor = "black";
           }
@@ -69,12 +88,28 @@
       }
       function basla(z) {
         if (z == 1) {
-          document.getElementById("sliderust").style.backgroundImage = resimler[z];
+          document.getElementById("sliderust").style.backgroundImage =
+            resimler[z];
           document.getElementById("sayi" + z).style.backgroundColor = "red";
+
+          document
+            .getElementById("sliderust")
+            .setAttribute(
+              "onclick",
+              "window.location.href='" + linkler[z] + "'"
+            );
+          document.getElementById("sayi10").style.backgroundColor = "black";
+          z++;
         }
         zaman = window.setInterval(function () {
-          document.getElementById("sliderust").style.backgroundImage = resimler[z];
-            document.getElementById.("sliderust").setAttribute("onclick","window.location.href='"+linkler[z]+"'");
+          document.getElementById("sliderust").style.backgroundImage =
+            resimler[z];
+          document
+            .getElementById("sliderust")
+            .setAttribute(
+              "onclick",
+              "window.location.href='" + linkler[z] + "'"
+            );
           for (var i = 1; i <= 10; i++) {
             if (z == i) {
               document.getElementById("sayi" + i).style.backgroundColor = "red";
@@ -105,7 +140,7 @@
           <li id="sayi7" onmouseover="degis(7)" onmouseout="basla(8)">7</li>
           <li id="sayi8" onmouseover="degis(8)" onmouseout="basla(9)">8</li>
           <li id="sayi9" onmouseover="degis(9)" onmouseout="basla(10)">9</li>
-          <li id="sayi10" onmouseover="degis(10)" onmouseout="basla(1)">10</li>
+          <li id="sayi10" onmouseover="degis(10)" onmouseout="basla(10)">10</li>
         </ul>
       </div>
     </div>
