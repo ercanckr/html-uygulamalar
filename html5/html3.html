@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style type="text/css">
+      body {
+        background: #f6f6f6;
+        font-family: tahoma;
+      }
+      .container {
+        width: 980px;
+        height: 650px;
+        margin: 10px auto;
+        border: 1px dashed #bd652b;
+        padding: 20px 0 20px 40px;
+        background: #8be8ff;
+      }
+      section {
+        width: 450px;
+        height: 220px;
+        float: left;
+        margin: 0 40px 60px 0;
+      }
+      aside {
+        width: 450px;
+        height: 120px;
+        float: left;
+        margin: 0 40px 60px 0;
+      }
+      footer {
+        width: 980px;
+        height: 100px;
+        float: left;
+      }
+      .baslikkutu {
+        width: 450px;
+        padding: 0 0 10px 0;
+        margin: 0 0 15px 0;
+        border-bottom: 2px solid #dd9d42;
+        color: #104579;
+        font: bold 19px tahoma;
+      }
+      section input,
+      aside input {
+        width: 300px;
+        padding: 5px;
+        border: 1px dashed #a0a0a0;
+        color: #104579;
+        font-size: 14px;
+      }
+      section input:hover {
+        border: 1px dashed #bd652b;
+        background: #f0ddbc;
+      }
+      input.radio,
+      input.onay {
+        width: 15px;
+      }
+      textarea {
+        width: 930px;
+        height: 65px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        color: #4b4b4b;
+        font-size: 14px;
+      }
+      button,
+      input.gonder {
+        width: 100px;
+        padding: 10px 25px;
+        margin: 0 30px 20px 0;
+        color: #fff;
+        font-size: 14px;
+        background-color: #24588f;
+        cursor: pointer;
+        border: none;
+      }
+      button:hover,
+      input.gonder:hover {
+        background-color: #104579;
+      }
+
+      tr:hover {
+        color: #bd652b;
+      }
+      tr:hover .siyah {
+        color: #000;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+      }
+      #askerlik,
+      #digerdil #digerbeceri {
+        padding: 5px;
+        border: 1px dashed #a0a0a0;
+        color: #104579;
+        font-size: 14px;
+      }
+    </style>
+    <script type="text/javascript">
+      function askerlikdurumu(deger) {
+        if (document.getElementById(deger).value == "erkek") {
+          document.getElementById("askerlik").type = "text";
+        } else {
+          document.getElementById("askerlik").type = "hidden";
+        }
+      }
+      function ackapat(deger) {
+        if (document.getElementById(deger).type == "text") {
+          document.getElementById(deger).type = "hidden";
+        } else {
+          document.getElementById(deger).type = "text";
+        }
+      }
+      function kapat() {
+        document.getElementById("askerlik").velue = "";
+        document.getElementById("digerdil").velue = "";
+        document.getElementById("digerilgi").velue = "";
+        document.getElementById("digerbeceri").velue = "";
+        document.getElementById("askerlik").type = "hidden";
+        document.getElementById("digerdil").type = "hidden";
+        document.getElementById("digerilgi").type = "hidden";
+        document.getElementById("digerbeceri").type = "hidden";
+      }
+    </script>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <section>
+          <div class="baslikkutu">Kişisel Bilgiler</div>
+          <table width="450" height="220">
+            <tr>
+              <td width="145">Ad</td>
+              <td width="5">:</td>
+              <td width="300">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Adınızı giriniz."
+                  required="required"
+                  maxlength="20"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Soyad</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Soyadınızı giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Doğum Tarihi</td>
+              <td>:</td>
+              <td><input type="date" name="" id="" required="required" /></td>
+            </tr>
+            <tr>
+              <td>Telefon</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="(xxx) xxx xx xx"
+                  required="required"
+                  pattern="[\(]\d{3}[\)][\s]\d{3}[\s]\d{2}[\s]\d{2}"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Mail Adresi</td>
+              <td>:</td>
+              <td>
+                <input
+                  required="required"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Mail adresinizi giriniz."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Cinsiyet</td>
+              <td>:</td>
+              <td class="siyah">
+                <input
+                  required="required"
+                  class="radio"
+                  type="radio"
+                  name="cins"
+                  id="erkek"
+                  value="erkek"
+                  onclick="askerlikdurumu(this.id)"
+                />Erkek<input
+                  required="required"
+                  class="radio"
+                  type="radio"
+                  name="cins"
+                  id="kadin"
+                  value="kadın"
+                  onclick="askerlikdurumu(this.id)"
+                />Kadın
+                <input
+                  type="hidden"
+                  name="asker"
+                  placeholder="Askerlik durumunu giriniz"
+                  id="askerlik"
+                />
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <div class="baslikkutu">Eğitim Durumu</div>
+          <table width="450" height="220">
+            <tr>
+              <td width="145">İlkokul</td>
+              <td width="5">:</td>
+              <td width="300">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Okuduğunuz ilkokulu giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Ortaokul</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Okuduğunuz ortaokulu giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Lise</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Okuduğunuz liseyi giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Üniversite</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Okuduğunuz üniversiteyi giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Yüksek Lisans</td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Yüksek Lisans yaptığınız üniversiteyi giriniz."
+                  required="required"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Yabancı Dil</td>
+              <td>:</td>
+              <td class="siyah">
+                <input class="onay" type="checkbox" name="" id="" />İngilizce
+                <input class="onay" type="checkbox" name="" id="" />Almanca
+                <input class="onay" type="checkbox" name="" id="" />Arapça
+                <input
+                  class="onay"
+                  type="checkbox"
+                  name=""
+                  id=""
+                  onclick="ackapat('digerdil')"
+                />Diğer
+                <input
+                  id="digerdil"
+                  type="hidden"
+                  name="digerdil"
+                  placeholder="Diğer bildiğiniz dili giriniz"
+                />
+              </td>
+            </tr>
+          </table>
+        </section>
+        <aside>
+          <div class="baslikkutu">İlgi Alanları</div>
+          <input class="onay" type="checkbox" name="" id="" /> Sinema <br />
+          <input class="onay" type="checkbox" name="" id="" /> Tiyatro <br />
+          <input class="onay" type="checkbox" name="" id="" /> Spor <br />
+          <input class="onay" type="checkbox" name="" id="" /> Kitap <br />
+          <input
+            class="onay"
+            type="checkbox"
+            name=""
+            id=""
+            onclick="ackapat('digerilgi')"
+          />
+          Diğer
+          <input
+            id="digerilgi"
+            type="hidden"
+            name="digerilgi"
+            placeholder="Diğer ilgi alanlarınızı giriniz"
+          />
+        </aside>
+        <aside>
+          <div class="baslikkutu">Beceriler</div>
+          <input class="onay" type="checkbox" name="" id="" /> Html <br />
+          <input class="onay" type="checkbox" name="" id="" /> Css <br />
+          <input class="onay" type="checkbox" name="" id="" /> Php <br />
+          <input class="onay" type="checkbox" name="" id="" /> Asp.Net <br />
+          <input
+            class="onay"
+            type="checkbox"
+            name=""
+            id=""
+            onclick="ackapat('digerbeceri')"
+          />
+          Diğer
+          <input
+            id="digerbeceri"
+            type="hidden"
+            name="digerbeceri"
+            placeholder="Diğer  becerilerinizi giriniz"
+          />
+        </aside>
+        <footer>
+          <div class="baslikkutu">Düşünceleriniz</div>
+          <textarea
+            required="required"
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+          ></textarea>
+          <br />
+          <br />
+          <button>Gönder</button>
+          <input class="gonder" type="reset" name="" id="" onclick="kapat()" />
+        </footer>
+      </div>
+    </form>
+  </body>
+</html>
