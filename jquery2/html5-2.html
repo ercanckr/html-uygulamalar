@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html5 1</title>
+    <style type="text/css">
+      /***** RESET *****/
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      font,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      header,
+      aside,
+      nav,
+      figure,
+      section,
+      footer,
+      article {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        /*font-size: 100%;
+	vertical-align: baseline;*/
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      textarea {
+        overflow: auto;
+      }
+
+      /***** RESET *****/
+      .container {
+        width: 900px;
+        height: 800px;
+        margin: 10px auto;
+      }
+      header {
+        width: 900px;
+        height: 100px;
+      }
+      nav {
+        width: 900px;
+        height: 36px;
+        margin: 10px 0 0 0;
+        background: #36c;
+      }
+      aside {
+        width: 200px;
+        height: 535px;
+        margin: 10px 0 0 0;
+        background: #adb1fc;
+        float: left;
+      }
+      main {
+        width: 650px;
+        height: 495px;
+        background: #cacdf4;
+        float: left;
+        margin: 10px 0 0 10px;
+        padding: 20px;
+        font: 14px tahoma;
+      }
+      footer {
+        width: 900px;
+        height: 100px;
+        background: #66f;
+        float: left;
+        margin: 10px 0 0 0;
+        text-align: center;
+        line-height: 100px;
+      }
+      header figure {
+        width: 100px;
+        height: 100px;
+        float: left;
+      }
+      header aside {
+        width: 752px;
+        height: 92px;
+        border: 4px solid #39f;
+        float: left;
+        background: #36f;
+        border-radius: 5px;
+        margin: 0;
+        font: bold 14px tahoma;
+        color: #fff;
+        padding: 0 20px;
+        line-height: 100px;
+      }
+      nav ul li {
+        float: left;
+      }
+      nav ul li a {
+        display: block;
+        width: 125px;
+        height: 28px;
+        font: bold 14 px tahoma;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        padding: 8px 0 0 5px;
+      }
+      nav ul li a:hover {
+        background: #03c;
+      }
+      main section article {
+        width: 650px;
+        height: 165px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <figure>
+          <img src="images/logo.png" alt="" />
+          <!--<figcaption>logo</figcaption>-->
+        </figure>
+        <aside>BURAYA SİTENİN BAŞLIĞI GELECEK.</aside>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="">Ana Sayfa</a></li>
+          <li><a href="">Hakkımızda</a></li>
+          <li><a href="">Ürünler</a></li>
+          <li><a href="">Galeri</a></li>
+          <li><a href="">İletişim</a></li>
+        </ul>
+      </nav>
+      <aside></aside>
+      <main>
+        <center>
+          <section>
+            <audio controls="controls" preload="none" style="width: 400px">
+              <source src="audiovideo/müzik.mp3" type="audio/mpeg" />
+              Tarayıcınız HTML5 Audio formatını desteklemiyor.
+            </audio>
+          </section>
+
+          <section>
+            <video
+              controls="controls"
+              poster="images/logo.png"
+              style="width: 250px"
+            >
+              <source src="audiovideo/video.mp" type="video/mp4" />
+              Tarayıcınız HTML5 Video formatını desteklemiyor.
+            </video>
+            <video
+              controls="controls"
+              poster="images/logo.png"
+              style="width: 250px"
+            >
+              <source src="audiovideo/video.mp" type="video/mp4" />
+              Tarayıcınız HTML5 Video formatını desteklemiyor.
+            </video>
+          </section>
+        </center>
+      </main>
+      <footer>
+        <address>
+          <small>
+            &copy;2020 <mark>Efe Çakır</mark>. Tüm hakları saklıdır.
+          </small>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>

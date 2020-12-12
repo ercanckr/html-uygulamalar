@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Output Elementini kullanmak</p>
+    <form
+      onsubmit="return false"
+      oninput="out.value = parseInt(a.value)+parseInt(b.value)"
+    >
+      <input type="number" name="a" step="any" />+
+      <input type="number" name="b" step="any" />=
+      <output name="out"></output>
+    </form>
+    <form
+      onsubmit="return false"
+      oninput="out.value = parseInt(a.value)-parseInt(b.value)"
+    >
+      <input type="number" name="a" step="any" />-
+      <input type="number" name="b" step="any" />=
+      <output name="out"></output>
+    </form>
+    <form
+      onsubmit="return false"
+      oninput="out.value = parseInt(a.value)*parseInt(b.value)"
+    >
+      <input type="number" name="a" step="any" />*
+      <input type="number" name="b" step="any" />=
+      <output name="out"></output>
+    </form>
+    <form
+      onsubmit="return false"
+      oninput="out.value = parseInt(a.value)/parseInt(b.value)"
+    >
+      <input type="number" name="a" step="any" />/
+      <input type="number" name="b" step="any" />=
+      <output name="out"></output>
+    </form>
+    <br />
+    <p>Meter Elementini Kullanmak</p>
+    <meter
+      value="30"
+      min="0"
+      max="100"
+      low="40"
+      high="80"
+      optimum="100"
+    ></meter>
+    <br />
+    <p>Progress Elementini Kullanmak</p>
+    <script>
+      function Click(str) {
+        var num = parseInt(str);
+        document.getElementById("pg").value = num;
+      }
+    </script>
+
+    <input type="text" id="txt" />
+    <input type="button" value="Değiştir" onclick="Click(txt.value)" />
+    <progress id="pg" max="100"></progress>
+
+    <p>Alan içerisinde bilgi metni olusturmak (placeholder)</p>
+
+    <input type="text" id="txt" placeholder="Adınızı Giriniz" />
+
+    <p>Girdinin zorunlu olduğu alan oluşturmak (required)</p>
+    <form action="">
+      <input type="text" placeholder="Adınızı Giriniz" required />
+      <input type="text" placeholder="SoyAdınızı Giriniz" required />
+      <input type="submit" value="Gönder" />
+    </form>
+    <p>İlgili Alanı Aktif Etmek (autofocus)</p>
+    <form action="">
+      <input type="text" placeholder="Adınızı Giriniz" autofocus required />
+      <input type="text" placeholder="SoyAdınızı Giriniz" required />
+      <input type="submit" value="Gönder" />
+    </form>
+    <p>Girdilerdeki Veri yapısını sınırlamak (pattern="[]{})</p>
+    <form action="">
+      <input
+        type="text"
+        placeholder="5 Harfli 1 İsim giriniz"
+        pattern="[a-z]{5}"
+      />
+      <input type="submit" value="Gönder" />
+    </form>
+    <p>
+      Karakter Sayısını sınırlamak (maxlength) ve otomatik tamamlama
+      (autocomplete)
+    </p>
+    <form action="">
+      <input
+        type="text"
+        placeholder="5 Haneli 1 sayı giriniz"
+        maxlength="5"
+        autocomplete="off"
+      />
+      <input type="submit" value="Gönder" />
+    </form>
+    <p>Range Tipini Kullanmak</p>
+    <form action="">
+      <fieldset>
+        <legend>Kullanıcı Bilgi Formu</legend>
+        <ul>
+          <li>
+            <label for="">Email Adresi</label>
+            <input type="email" id="mail" name="mail" required />
+          </li>
+          <li>
+            <label for="">HTML5 Beğeni Oranı</label>
+            <input
+              type="range"
+              id="puan"
+              name="puan"
+              min="0"
+              max="10"
+              step="1"
+              value="10"
+              onchange="rangeChange();"
+            />
+            <label id="rangeCount">Min:0 - Max:10</label>
+          </li>
+          <p>Color Tipini Kullanmak</p>
+          <label></label>En Sevdiğiniz Renk</label>
+          <input id="renk" name="renk" type="color" onchange="colorChange()" />
+          <output id="out"></output>
+
+          <script>
+            function colorChange() {
+              var color = document.getElementById("renk").value;
+              out.value = color;
+            }
+          </script>
+          <p>Url tipini kullanmak</p>
+          <li>
+              <label> Web Adresiniz</label>
+              <input type="url" id="link" required>
+
+          </li>
+
+          <li>
+            <input type="submit" id="send" value="Gönder" />
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+    <script>
+      function rangeChange() {
+        var count = document.getElementById("puan").value;
+        document.getElementById("rangeCount").innerHTML =
+          "Min:" + puan.min + "  -  Max:" + puan.max + "  > " + count;
+      }
+    </script>
+  <p style="color: purple;">  1- Sitcom izleyin.
+    2-Satranç, tabu, sessiz sinema gibi oyunlar oynayın; tuvalette (:d) sudoku çözün.
+    3-Günlük en az 8 bardak su için. 
+    4-Bir ortama girmeden önce yürüyüş yapın. 
+    5-Ceviz yiyin. 
+    6-Fast food yemeyin.
+    7-Size yenilikler katmayan çevrenizi kısın.
+    8-Sosyal medyadan uzak durun. 
+    9-Kendinizi kısıtlamayın. (Açken şunu yapamam, uykuluyken bunu hiç yapamam gibisinden)
+    10-Kitap okuyun, gözünüzde karakterler canlansın.
+    11-TRT'nin Radyo Tiyatrosu Arşivi dinleyin.
+    12-Haftada bir gün herhangi bir konu hakkında derin bir araştırma yap.
+    13-Günde bir fincan şekersiz Türk kahvesi tüketin.
+    14-Daha önce hiç yemediğin bir yiyecek ye/ hiç dinlemediğin müziği dinle.
+    15-En az 6 saat uyuyun.
+    16-Şekersiz sakız çiğneyin.</p>
+  </body>
+</html>
